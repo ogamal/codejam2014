@@ -1,0 +1,10 @@
+./gcj_download_input.py A small 0; cd source; cat A-small-0.in | ./a.out > A-small-0.out; cd ..; ./gcj_submit_solution.py A small 0
+
+./gcj_download_input.py A large 0; cd source; cat A-large-0.in | ./a.out > A-large-0.out; cd ..; ./gcj_submit_solution.py A large 0
+
+
+./gcj_download_input.py A large 0; cd source; cat A-large-0.in | ./a.out > A-large-0.out; cd ..; ./gcj_submit_solution.py A large 0
+
+./gcj_download_input.py B small 0; cd source; cat B-small-0.in | ./a.out > B-small-0.out; cd ..; ./gcj_submit_solution.py B small 0
+
+cat a_test.in | ./A-small-0.py
