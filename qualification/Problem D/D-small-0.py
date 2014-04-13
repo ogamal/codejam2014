@@ -36,12 +36,10 @@ def main(argv):
 		# Deceitful war
 		while (N > 0):
 			if naomi[0] > ken[0]:
-				#print "del", naomi[0], ken[0]
 				del naomi[0]
 				del ken[0]
 				dscore = dscore + 1
 			else:
-				#print "del", naomi[0], ken[0], "<=="
 				del naomi[0]
 				del ken[-1]
 			N = N - 1
