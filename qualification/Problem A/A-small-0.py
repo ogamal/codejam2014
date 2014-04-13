@@ -6,10 +6,6 @@ import fileinput
 def main(argv):
 	T = int(sys.stdin.readline())
 	for count in range(1, T+1):
-		c1 = []
-		c2 = []
-		temp = []
-
 		# get arrg 1
 		n1 = int(sys.stdin.readline()) - 1
 		for i in range(0, 4):
